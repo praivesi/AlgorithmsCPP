@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\BFS_DFS">
       <UniqueIdentifier>{e801f9f1-9fd5-4321-bf3f-756088883a03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Greedy">
+      <UniqueIdentifier>{6c327c1b-d9f6-41a9-8496-9dacfb03915f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="Networks.cpp">
       <Filter>소스 파일\BFS_DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthWear.cpp">
+      <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

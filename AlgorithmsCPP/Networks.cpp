@@ -9,7 +9,7 @@ int solution(int n, vector<vector<int>> computers);
 int main() {
 	int n = 3;
 	//vector<vector<int>> computers{ {1,1,0}, {1,1,0}, {0,0,1} };
-	vector<vector<int>> computers{ {1,1,0}, {1,1,1}, {0,1,1} };
+	vector<vector<int>> computers{ {1,1,0}, {1,1,1}, {0,0,1} };
 
 	int result = solution(n, computers);
 
