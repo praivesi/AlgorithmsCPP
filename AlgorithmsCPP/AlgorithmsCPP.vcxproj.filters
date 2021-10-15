@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Greedy">
       <UniqueIdentifier>{6c327c1b-d9f6-41a9-8496-9dacfb03915f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DevMatching_2021_1">
+      <UniqueIdentifier>{baac71a4-b9ce-4aa1-8b9b-58b57374bf86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="HealthWear.cpp">
       <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="lottos.cpp">
+      <Filter>소스 파일\DevMatching_2021_1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
