@@ -39,5 +39,8 @@
     <ClCompile Include="MatrixRotation.cpp">
       <Filter>소스 파일\DevMatching_2021_1</Filter>
     </ClCompile>
+    <ClCompile Include="Brooth.cpp">
+      <Filter>소스 파일\DevMatching_2021_1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

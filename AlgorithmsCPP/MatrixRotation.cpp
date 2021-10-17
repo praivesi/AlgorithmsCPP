@@ -16,6 +16,10 @@ int main() {
 	vector<vector<int>> queries{ {1,1,2,2}, {1,2,2,3}, {2,1,3,2}, {2,2,3,3} };
 
 	vector<int> ret = solution(rows, columns, queries);
+
+	for (int r : ret) {
+		cout << r << endl;
+	}
 }
 
 vector<int> solution(int rows, int columns, vector<vector<int>> queries) {
@@ -35,7 +39,7 @@ vector<int> solution(int rows, int columns, vector<vector<int>> queries) {
 	}
 
 	for (vector<int> query : queries) {
-		//printMatrix(matrix);
+		printMatrix(matrix);
 
 		int minValue = rotate(query[0] - 1, query[1] - 1, query[2] - 1, query[3] - 1, matrix);
 
@@ -88,6 +92,8 @@ int rotate(int x1, int y1, int x2, int y2, vector<vector<int>>& matrix) {
 
 	matrix[x1][y1 + 1] = stash;
 	minValue = min(matrix[x1][y1 + 1], minValue);
+
+	cout << endl << "Final minValue : " << minValue << endl;
 
 	return minValue;
 }
