@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\DevMatching_2021_1">
       <UniqueIdentifier>{baac71a4-b9ce-4aa1-8b9b-58b57374bf86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\FullySearch">
+      <UniqueIdentifier>{202bf547-4db9-4404-ad09-d8f25349a20d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Brooth.cpp">
       <Filter>소스 파일\DevMatching_2021_1</Filter>
+    </ClCompile>
+    <ClCompile Include="MathGiveUp.cpp">
+      <Filter>소스 파일\FullySearch</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
