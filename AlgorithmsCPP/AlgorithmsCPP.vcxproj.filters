@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\FullySearch">
       <UniqueIdentifier>{202bf547-4db9-4404-ad09-d8f25349a20d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DevMatching_2021_2">
+      <UniqueIdentifier>{2e609326-1fbe-46a3-a586-d75044635843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic">
+      <UniqueIdentifier>{0b88233c-e534-4de5-b6b3-9b76e9860cd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -47,6 +53,18 @@
     </ClCompile>
     <ClCompile Include="MathGiveUp.cpp">
       <Filter>소스 파일\FullySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPrime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NewID.cpp">
+      <Filter>소스 파일\DevMatching_2021_2</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxHoliday.cpp">
+      <Filter>소스 파일\DevMatching_2021_2</Filter>
+    </ClCompile>
+    <ClCompile Include="SortPieces.cpp">
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
