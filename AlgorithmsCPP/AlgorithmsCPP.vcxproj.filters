@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Basic">
       <UniqueIdentifier>{0b88233c-e534-4de5-b6b3-9b76e9860cd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2">
+      <UniqueIdentifier>{6241b7ec-898f-4a1d-848b-1c398d6bd0d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="SortPieces.cpp">
       <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="124World.cpp">
+      <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
