@@ -1,2 +1,5 @@
-﻿  124World.cpp
+﻿  makePrime.cpp
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\makePrime.cpp(21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\makePrime.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\makePrime.cpp(23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   AlgorithmsCPP.vcxproj -> C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\Debug\AlgorithmsCPP.exe

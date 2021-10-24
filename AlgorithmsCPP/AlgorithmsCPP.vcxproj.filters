@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Level2">
       <UniqueIdentifier>{6241b7ec-898f-4a1d-848b-1c398d6bd0d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level1">
+      <UniqueIdentifier>{d4ef8244-55f9-44d4-845f-b2ad8ceb3ccc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="124World.cpp">
       <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="makePrime.cpp">
+      <Filter>소스 파일\Level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
