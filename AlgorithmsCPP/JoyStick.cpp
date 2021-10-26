@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int getMoveCnt(vector<char>& arr, int needMoveCharCnt, bool isLeft);
+int getMoveCnt(vector<char>& arr, int & needMoveCharCnt, int span, bool isLeft);
 int getMoveCnt(char c);
 int solution(string name);
 
@@ -24,13 +24,25 @@ int solution(string name) {
 		}
 	}
 
-	int leftCnt = getMoveCnt(arr, needMoveCharCnt, true);
-	int rightCnt = getMoveCnt(arr, needMoveCharCnt, false);
+	int ret = -1;
+	for (int i = 0; i < arr.size(); i++) {
+		int leftNeedCnt = needMoveCharCnt;
+		int rightNeedCnt = needMoveCharCnt;
 
-	return min(leftCnt, rightCnt);
+		int leftCnt = getMoveCnt(arr, leftNeedCnt, i, true);
+		int rightCnt = getMoveCnt(arr, rightNeedCnt, i, false);
+
+		if (leftNeedCnt == 0 || rightNeedCnt == 0) {
+			ret = min(leftCnt, rightCnt);
+
+			break;
+		}
+	}
+
+	return ret;
 }
 
-int getMoveCnt(vector<char> &arr, int needMoveCharCnt, bool isLeft) {
+int getMoveCnt(vector<char> &arr, int & needMoveCharCnt, int span, bool isLeft) {
 	int cnt = 0;
 
 	cnt += getMoveCnt(arr[0]);
@@ -39,7 +51,7 @@ int getMoveCnt(vector<char> &arr, int needMoveCharCnt, bool isLeft) {
 		needMoveCharCnt--;
 	}
 
-	for (int i = 1; i < arr.size(); i++) {
+	for (int i = 1; i < 1 + span; i++) {
 		if (needMoveCharCnt == 0) { break; }
 
 		cnt++;

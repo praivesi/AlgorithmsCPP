@@ -1,4 +1,4 @@
 ﻿  JoyStick.cpp
 C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\JoyStick.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\JoyStick.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\JoyStick.cpp(28): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   AlgorithmsCPP.vcxproj -> C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\Debug\AlgorithmsCPP.exe
