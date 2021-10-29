@@ -1,3 +1,4 @@
-﻿  124World.cpp
-C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\124World.cpp(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  LifeTube.cpp
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\LifeTube.cpp(11): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\LifeTube.cpp(29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   AlgorithmsCPP.vcxproj -> C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\Debug\AlgorithmsCPP.exe

@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 using namespace std;
 
@@ -15,29 +16,29 @@ int solution(vector<int> people, int limit) {
 	reverse(people.begin(), people.end());
 
 	int boatCnt = 0;
+	int savedRearCnt = 0;
 
 	int rear = people.size() - 1;
 	for (int i = 0; i < people.size(); i++) {
-		if (people[i] <= limit / 2)
+		if (saved[i])
 		{
-			int remainedPeople = people.size() - i;
-
-			boatCnt += remainedPeople % 2 == 0 ? remainedPeople / 2 : remainedPeople / 2 + 1;
-
 			break;
 		}
 
-		if (saved[i]) 
+		if (people[i] <= limit / 2)
 		{
-			boatCnt++;
+			int remainedPeople = people.size() - i - savedRearCnt;
 
-			break; 
+			boatCnt += remainedPeople % 2 == 0 ? (remainedPeople / 2) : (remainedPeople / 2 + 1);
+
+			break;
 		}
 
 		if (people[i] + people[rear] <= limit) {
 			saved[i] = true;
 			saved[rear] = true;
 
+			savedRearCnt++;
 			rear--;
 		}
 
@@ -48,5 +49,6 @@ int solution(vector<int> people, int limit) {
 }
 
 int main() {
-
+	vector<int> people{ 70, 80, 50 };
+	int ret = solution(people, 100);
 }
