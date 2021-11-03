@@ -5,25 +5,31 @@
 using namespace std;
 
 vector<int> solution(vector<int> progresses, vector<int> speeds) {
-	int finishedJobNum = -1;
 	vector<int> deployCnts;
 
-	for (int i = 0; i < progresses.size(); i++) {
-		for (int j = 0; j < progresses.size(); j++) {
+	int pivot = 0;
+	int workCnt = 0;
+	while (pivot < progresses.size()) {
+		for (int i = pivot; i < progresses.size(); i++) {
 			progresses[i] += speeds[i];
 		}
 
-		int deployCnt = 0;
-		for (int j = 0; j < progresses.size(); j++) {
-			if (j <= finishedJobNum) { continue; }
+		workCnt++;
 
-			if (progresses[j] >= 100) {
-				deployCnt++;
-				finishedJobNum++;
+		int curDeployCnt = 0;
+		for (int i = pivot; i < progresses.size(); i++) {
+			if (progresses[i] < 100) {
+				break;
 			}
 
+			curDeployCnt++;
+			pivot++;
 		}
 
-		deployCnts.push_back(deployCnt);
+		if (curDeployCnt != 0) {
+			deployCnts.push_back(curDeployCnt);
+		}
 	}
+
+	return deployCnts;
 }

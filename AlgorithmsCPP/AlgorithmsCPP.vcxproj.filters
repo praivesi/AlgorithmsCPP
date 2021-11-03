@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\Level1">
       <UniqueIdentifier>{d4ef8244-55f9-44d4-845f-b2ad8ceb3ccc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{24f41fc6-82b9-4278-aa40-732ada2b8031}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Numbers.cpp">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="LifeTube.cpp">
       <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeFunction.cpp">
+      <Filter>소스 파일\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
