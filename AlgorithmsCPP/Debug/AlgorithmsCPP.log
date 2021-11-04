@@ -1,3 +1,4 @@
-﻿  ConnectIslands.cpp
-C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\ConnectIslands.cpp(21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  AlgorithmsCPP.vcxproj -> C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\Debug\AlgorithmsCPP.exe
+﻿  StockPrice.cpp
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\AlgorithmsCPP\StockPrice.cpp(13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\Praivesi\Desktop\Canvas\Project\AlgorithmsCPP\Debug\AlgorithmsCPP.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

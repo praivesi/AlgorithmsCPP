@@ -105,5 +105,8 @@
     <ClCompile Include="ConnectIslands.cpp">
       <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="StockPrice.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

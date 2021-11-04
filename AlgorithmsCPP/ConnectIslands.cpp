@@ -42,7 +42,7 @@ int solution(int n, vector<vector<int>> costs) {
 			}
 		}
 
-		if (minCostVertex == UNDEFINED) { break; }
+		if (minCostVertex == UNDEFINED) { continue; }
 
 		visited[minCostVertex] = true;
 		totalCost += minCost;
