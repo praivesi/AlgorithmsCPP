@@ -102,5 +102,8 @@
     <ClCompile Include="TrucksOnBridge.cpp">
       <Filter>소스 파일\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="ConnectIslands.cpp">
+      <Filter>소스 파일\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
